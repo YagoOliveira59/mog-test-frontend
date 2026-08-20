@@ -2,6 +2,9 @@
   "name": "mog-test-frontend",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -21,8 +24,8 @@
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^7.0.0",
-    "node-sass": "^4.12.0",
     "raw-loader": "^4.0.2",
+    "sass": "^1.103.0",
     "sass-loader": "^8.0.2"
   }
 }
